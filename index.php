@@ -1,23 +1,22 @@
 <?php
 
-require_once 'Car.php';
 require_once 'Bicycle.php';
+require_once 'Car.php';
+require_once 'Truck.php';
 
+$bicycle = new Bicycle('blue', 1);
+echo $bicycle->forward();
+var_dump($bicycle);
 
-$homerPinkCar = new Car('Pink' , 4, 'Essence');
+$car = new Car('green', 4, 'electric');
+echo $car->forward();
+var_dump($car);
 
-$margeStationWagon = new Car('blue', 4,'Eau');
+var_dump(Car::ALLOWED_ENERGIES);
 
-$bycleSophie = new Bicycle('blue');
+$truck = new Truck ('blue', 6, 300);
+var_dump($truck);
 
-var_dump($bycleSophie);
-var_dump($homerPinkCar);
-var_dump($margeStationWagon);
+var_dump($truck);
 
-echo $bycleSophie->forward();
-echo $bycleSophie ->brake();
-echo "<br>";
-echo "<br>";
-
-echo $margeStationWagon->forward();
-echo $margeStationWagon->brake();
+echo $truck->isfull();
