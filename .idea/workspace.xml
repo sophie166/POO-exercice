@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47870cfd-0f12-497b-a95a-2e837334f18f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ChargingStation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElectricBike.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LightableInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RechargeableInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Skateboard.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vehicle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bicycle.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bicycle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/Car.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +94,7 @@
       <workItem from="1573131932166" duration="632000" />
       <workItem from="1573579559035" duration="631000" />
       <workItem from="1573632553331" duration="114000" />
-      <workItem from="1574065163907" duration="1811000" />
+      <workItem from="1574065163907" duration="6073000" />
     </task>
     <servers />
   </component>
